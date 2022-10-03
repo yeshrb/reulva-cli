@@ -1005,13 +1005,13 @@
     "node-addon-api" "^3.2.1"
     "node-gyp-build" "^4.3.0"
 
-"@reulav-cli/utils@^1.0.0", "@reulav-cli/utils@file:/Users/lee/proLearn/00-front-architecture/01-scaffold/code/reulva-cli/packages/utils":
+"@reulav-cli/utils@^1.0.1", "@reulav-cli/utils@file:/Users/lee/proLearn/00-front-architecture/01-scaffold/code/reulva-cli/packages/utils":
   "resolved" "file:packages/utils"
-  "version" "1.0.0"
+  "version" "1.0.1"
 
 "@reulva-cli/core@file:/Users/lee/proLearn/00-front-architecture/01-scaffold/code/reulva-cli/packages/core":
   "resolved" "file:packages/core"
-  "version" "1.0.0"
+  "version" "1.0.1"
   dependencies:
     "@reulav-cli/utils" "^1.0.0"
 
