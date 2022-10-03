@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/lee/.nvm/versions/node/v16.13.1/bin/node /usr/local/bin/yarn config list --json
+
+PATH: 
+  /usr/local/opt/mysql-client/bin:/Users/lee/.nvm/versions/node/v16.13.1/bin:/Users/lee/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/lee/proLearn/00-front-architecture/01-scaffold/code/reulva-cli/packages/core/package.json: Unexpected token } in JSON at position 565
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@reulva-cli/core",
+    "version": "1.0.1",
+    "description": "> TODO: description",
+    "author": "yeshrb@126.com",
+    "homepage": "https://github.com/yeshrb/reulva-cli#readme",
+    "license": "ISC",
+    "main": "lib/core.js",
+    "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+    },
+    "files": [
+      "lib"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yeshrb/reulva-cli.git"
+    },
+    "scripts": {
+      "test": "node ./__tests__/core.test.js"
+    },
+    "dependencies": {
+      "@reulav-cli/utils": "*",
+      "@reulav-cli/utils":
+    },
+    "bugs": {
+      "url": "https://github.com/yeshrb/reulva-cli/issues"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "gitHead": "aa7240b810c85f81d10caab04f0d81c22148fb35"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

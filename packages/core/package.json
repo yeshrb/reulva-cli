@@ -21,7 +21,7 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@reulav-cli/utils": "*"
+    "@reulav-cli/utils":"*"
   },
   "bugs": {
     "url": "https://github.com/yeshrb/reulva-cli/issues"
