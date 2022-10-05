@@ -18,6 +18,7 @@
     "url": "git+https://github.com/yeshrb/reulva-cli.git"
   },
   "scripts": {
+    "dev": "node ./lib/core.js",
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {

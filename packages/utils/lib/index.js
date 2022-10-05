@@ -3,5 +3,5 @@
 module.exports = index;
 
 function index() {
-    return "Hello from index";
+    return "Hello from utils";
 }
