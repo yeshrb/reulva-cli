@@ -1,5 +1,5 @@
 {
-  "name": "@reulva-cli/core",
+  "name": "@yestech-cli/core",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "yeshrb@126.com",
@@ -21,7 +21,7 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@reulav-cli/utils": "^1.0.3"
+    "@yestech-cli/utils": "*"
   },
   "bugs": {
     "url": "https://github.com/yeshrb/reulva-cli/issues"
@@ -29,5 +29,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "96cce9c06dbd4ffc9839b014591e31a91c10c679"
+  "gitHead": "0fe7c345a0e62af7628f91874f2bed68878bf0d5"
 }

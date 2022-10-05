@@ -1,5 +1,5 @@
 {
-  "name": "reulav-cli",
+  "name": "yestech-cli",
   "private": true,
   "workspaces": [
     "packages/*"
